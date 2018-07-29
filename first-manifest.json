@@ -1,0 +1,13 @@
+{
+  "manifest": {
+    "name": "codius-first-contract",
+    "version": "1.0.0",
+    "machine": "small",
+    "port": "1337",
+    "containers": [{
+      "id": "app",
+      "image": "arsics/my-first-contract@sha256:ef7d8d93d6283e96e4b9526f531addb306abdd554fe7513f57a7e4b700795ef3",
+  "workdir": "/app"
+    }]
+  }
+}   
